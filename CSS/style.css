@@ -39,7 +39,7 @@ img {
 
 .main {
   /* baggrund til hjemmesiden  */
-  background-image: url(../Billeder/Baggrunde/Bg1.jpg);
+  background-image: url(../Images/background/Bg1.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -134,3 +134,19 @@ section {
     transform: scale(1.1);
 }
 
+.darkmode {
+  background-color: var(--primary);
+  color: white;
+}
+
+.form-check {
+  margin-top: 30px;
+  margin-left: 30px;
+
+}
+
+#checkbox {
+  width: 50px;
+  height: 20px;
+  cursor: pointer;
+}

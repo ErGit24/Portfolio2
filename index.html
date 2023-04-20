@@ -15,6 +15,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="CSS/style.css" />
+
+
   </head>
 
   <body>
@@ -68,7 +70,7 @@
           <div class="col-lg-7 mx-auto text-center">
             <h1 class="display-4 text-white">Hej</h1>
             <p class="text-white my-8">
-              Velkommen til min hjemmeside
+              Jeg hedder Erol og er 29 år. Jeg har valgt data og kommunikation linjen hvor jeg læser til at uddanne mig som programmør
             </p>
             
             <a href="/CV.txt" download class="btm -me-2 btn btn-primary" >Portfolio
@@ -229,7 +231,7 @@
             <p>
               Du kan nemmest få kontakt til mig ved at udfylde denne formular, så vil jeg svare hurtigst muligt !
              </p>
-            <form class="row g-3">
+            <form class="row g-3" action="https://formsubmit.co/b2d28e57b95457b659976a6f1db8307b " method="POST" >
               <div class="col-md-6">
                 <label for="navn" class="form-label">Navn</label>
                 <input type="text" class="form-control" id="navn" required>
@@ -251,11 +253,11 @@
                 <textarea class="form-control" id="besked" row="3" required></textarea>
               </div>
                 <div class="col-md-12">
-                  <button type="send" class="btn btn-primary">SEND</button>
+                  <button type="send" class="btn btn-primary"onclick="sendMail()">SEND</button>
                 </div>
             </form>
-           
           </div>
+      
         </div>
       </div>
     </section>

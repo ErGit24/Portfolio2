@@ -231,29 +231,29 @@
             <p>
               Du kan nemmest få kontakt til mig ved at udfylde denne formular, så vil jeg svare hurtigst muligt !
              </p>
-            <form class="row g-3" action="https://formsubmit.co/b2d28e57b95457b659976a6f1db8307b " method="POST" >
+            <form class="row g-3" action="https://formsubmit.co/b2d28e57b95457b659976a6f1db8307b" method="POST" >
               <div class="col-md-6">
                 <label for="navn" class="form-label">Navn</label>
-                <input type="text" class="form-control" id="navn" required>
+                <input type="text" class="form-control" name="Navn" id="navn" required>
               </div>
               <div class="col-md-6">
                 <label for="efternavn" class="form-label">Efternavn</label>
-                <input type="text" class="form-control" id="efternavn" required>
+                <input type="text" class="form-control" name="Efternavn" id="efternavn" required>
               </div>
               <div class="col-md-8">
                 <label for="emailInfo" class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="emailInfo" required>
+                <input type="email" class="form-control" name="Emails" id="emailInfo" required>
               </div>
               <div class="col-md-4">
                 <label for="telNummer" class="form-label">Telefon Nummer</label>
-                <input type="text" class="form-control" id="telNummer" placeholder="+45 12 34 56 78">
+                <input type="text" class="form-control" name="Telefon" id="telNummer" placeholder="+45 12 34 56 78">
               </div>
               <div class="col-md-12">
                 <label for="besked" class="form-label">Besked</label>
-                <textarea class="form-control" id="besked" row="3" required></textarea>
+                <textarea class="form-control" name="Besked" id="besked" row="3" required></textarea>
               </div>
                 <div class="col-md-12">
-                  <button type="send" class="btn btn-primary"onclick="sendMail()">SEND</button>
+                  <button type="send" class="btn btn-primary">SEND</button>
                 </div>
             </form>
           </div>
